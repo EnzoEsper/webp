@@ -11194,3 +11194,29 @@ input[type=text]:not(.browser-default):disabled+label {
   border-bottom: 1px solid #fdd835;
   box-shadow: 0 1px 0 0 #fdd835
 }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #68d9b5;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.social {
+  left: 50%;
+  margin-left: -106px;
+  position: absolute;
+  z-index: 99;
+}
+
+.hide {
+  display: none;
+}
